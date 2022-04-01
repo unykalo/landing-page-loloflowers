@@ -1,0 +1,24 @@
+.banner {
+	height: 60vh;
+	background-image: url("../images/fleurs.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.banner h1, .banner h2 {
+	text-shadow: 1px 1px 1px black;
+}
+
+
+.banner-fixed{
+	height: 35vh;
+	background-image: url("../images/fleurs.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}

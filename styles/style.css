@@ -1,0 +1,134 @@
+@import url('banner.css');
+@import url('buttons.css');
+@import url('cards.css');
+@import url('footer.css');
+@import url('topban.css');
+@import url('blog.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100&family=Raleway:wght@200&family=Secular+One&family=Spartan:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@100&family=Raleway:wght@200&family=Secular+One&display=swap')
+
+body{font-family: 'Montserrat', sans-serif;}
+
+h1, h2, h3, h4, a{font-family: 'Spartan', sans-serif;}
+
+h1{
+    font-size: 60px;;
+}
+
+h2{
+    font-size: 40px;
+}
+
+body {
+
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+
+.pink{ color: pink; }
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+}
+
+.blockquote {
+    padding: 60px 80px 40px;
+    position: relative;
+}
+.blockquote p {
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.boutique{
+background-color: pink;
+padding: 25px;
+display: flex;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.btn-white{
+    background-color:rgb(40, 40,40);
+    padding : 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: pink;
+    width: 25%;
+    border: 1px solid bleu;
+}
+
+.map-responsive {
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;>
+height:0;
+}
+
+.map-responsive iframe {
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+.list-inline li{display: inline;}
+
+.list list-inline{padding: 0px;}
+
+.list-inline a {font-size: 48px; color: rgba(255, 255, 255, 0);}
+
+.list-inline a:hover {color:  pink;}
+
+
+
+@media (min-width: 576px){
+.cards{
+    grid-template-columns : 1fr 1fr 1fr }
+.blog{
+    grid-template-columns: 1fr 1fr 1fr}
+}
+
+@media (min-width: 768px){
+.cards{
+    grid-template-columns : 1fr 1fr 1fr }
+.blog{
+    grid-template-columns: 1fr 1fr 1fr}
+}
+
+@media (min-width: 992px){
+.cards{
+    grid-template-columns : 1fr 1fr 1fr }
+.blog{
+    grid-template-columns: 1fr 1fr 1fr}
+}
+
+@media (min-width: 1200px){
+.cards{
+    grid-template-columns : 1fr 1fr 1fr }
+.blog{
+    grid-template-columns: 1fr 1fr 1fr}
+}
+
+@media (min-width: 1400px){
+.cards{
+    grid-template-columns : 1fr 1fr 1fr }
+.blog{
+    grid-template-columns: 1fr 1fr 1fr}
+}
+
+

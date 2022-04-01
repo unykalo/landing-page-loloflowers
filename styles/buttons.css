@@ -1,0 +1,13 @@
+.btn-pink{
+	background-color: pink;
+	padding : 15px;
+	color: white;
+	font-weight: bold;
+	border-radius: 6px;
+	margin: 0 auto;
+	display: pink;
+	width: 25%;
+	border: 1px solid bleu;
+	text-shadow: 2px;
+}
+

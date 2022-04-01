@@ -1,0 +1,8 @@
+.nav {
+    padding: 22px 0;
+    text-align: center;
+    background-color:rgb(40, 40, 40);
+    position: sticky;
+    top: 0;
+    color: white;
+}
